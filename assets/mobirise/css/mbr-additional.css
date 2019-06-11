@@ -588,8 +588,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 #scrollToTop a i:before {
   content: '';
@@ -1795,7 +1795,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qTkA127IK8 {
-  background-image: url("../../../assets/images/kak-vybrat-svetyashchiesya-i-neonovye-oboi-42-880x502.jpg");
+  background-image: url("../../../assets/images/6qyzcubd0ve-964x557.jpg");
 }
 .cid-qTkAaeaxX5 {
   padding-top: 60px;
@@ -1925,4 +1925,59 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
+}
+.cid-rt5K29TEhd {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #0f7699, #cc2952);
+}
+.cid-rt5K29TEhd .list-group-item {
+  padding: .75rem 3.25rem;
+}
+.cid-rt5K29TEhd .plan {
+  word-break: break-word;
+  position: relative;
+  max-width: 300px;
+  padding-right: 0;
+  padding-left: 0;
+  color: #767676;
+}
+.cid-rt5K29TEhd .plan .list-group-item {
+  position: relative;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border: 0;
+}
+.cid-rt5K29TEhd .plan .list-group-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 60%;
+  height: 2px;
+  content: "";
+  background-color: #eaeaea;
+}
+.cid-rt5K29TEhd .plan .list-group-item:last-child::after {
+  display: none;
+}
+.cid-rt5K29TEhd .plan-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cid-rt5K29TEhd .plan-header,
+.cid-rt5K29TEhd .plan-body {
+  background-color: #fff;
+}
+.cid-rt5K29TEhd .price-figure {
+  font-weight: 700;
+  color: #232323;
+}
+.cid-rt5K29TEhd .price-value {
+  font-weight: 700;
+  vertical-align: top;
+}
+@media (max-width: 550px) {
+  .cid-rt5K29TEhd .price-figure {
+    font-size: 4.25rem;
+  }
 }
